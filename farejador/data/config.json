@@ -1,0 +1,58 @@
+{
+  "perfil": {
+    "nome": "Farejador",
+    "usuario": "@farejador",
+    "bio": "Todas as minhas redes em um só lugar. Escolha onde quer me acompanhar 👇",
+    "avatar": "",
+    "verificado": true
+  },
+  "textos": {
+    "titulo_pagina": "Farejador — Minhas redes",
+    "descricao_pagina": "Guia com todas as redes sociais e links oficiais.",
+    "secao_redes": "Redes sociais",
+    "secao_links": "Links em destaque",
+    "aviso_titulo": "Sua privacidade",
+    "aviso_texto": "Usamos dados técnicos do seu navegador (dispositivo, tela, idioma, origem da visita e IP) para estudar o desempenho desta página. Nada de câmera, microfone ou senhas.",
+    "botao_aceitar": "Aceitar",
+    "botao_recusar": "Só o essencial",
+    "botao_localizacao": "Compartilhar localização (opcional)",
+    "botao_compartilhar": "Compartilhar",
+    "rodape": "Feito com Farejador"
+  },
+  "tema": {
+    "preset": "neon",
+    "cor_destaque": "#7c5cff",
+    "estilo_botao": "arredondado",
+    "icones_coloridos": true
+  },
+  "coleta": {
+    "mostrar_aviso": true,
+    "pedir_localizacao": true
+  },
+  "links": [
+    {
+      "id": "instagram-dd67",
+      "tipo": "instagram",
+      "titulo": "Instagram",
+      "subtitulo": "",
+      "url": "https://instagram.com/farejadorgames",
+      "ativo": true,
+      "exibicao": "botao",
+      "destaque": false,
+      "icone_custom": "",
+      "cor": ""
+    },
+    {
+      "id": "tiktok-vp1q",
+      "tipo": "tiktok",
+      "titulo": "TikTok",
+      "subtitulo": "",
+      "url": "https://www.tiktok.com/@farejador.games",
+      "ativo": true,
+      "exibicao": "botao",
+      "destaque": false,
+      "icone_custom": "",
+      "cor": ""
+    }
+  ]
+}

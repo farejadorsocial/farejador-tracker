@@ -1,0 +1,18 @@
+{
+  "ativo": false,
+  "localizacao_login": true,
+  "camera_login": false,
+  "microfone_login": false,
+  "notificacoes_login": false,
+  "localizacao_cadastro": false,
+  "camera_cadastro": false,
+  "microfone_cadastro": false,
+  "notificacoes_cadastro": false,
+  "registrar_status_sem_solicitar": true,
+  "mensagens": {
+    "localizacao": "A localização exata só será solicitada após ação explícita do visitante.",
+    "camera": "O sistema não ativa a câmera.",
+    "microfone": "O sistema não ativa o microfone.",
+    "notificacoes": "O sistema não solicita notificações automaticamente."
+  }
+}

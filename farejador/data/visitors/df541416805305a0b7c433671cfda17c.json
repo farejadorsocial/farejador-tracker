@@ -1,0 +1,969 @@
+{
+  "schema_versao": 3,
+  "visitante_id": "df541416805305a0b7c433671cfda17c",
+  "criado_em": "2026-11-18T17:41:04-03:00",
+  "atualizado_em": "2026-11-18T18:11:41-03:00",
+  "quantidade_coletas": 4,
+  "consentimento": {
+    "aceito": true,
+    "registrado_em": "2026-11-18T18:11:41-03:00",
+    "texto_versao": "coleta-guia-v3"
+  },
+  "conexao_servidor": {
+    "ip_observado": "179.214.28.147",
+    "tipo_ip": "IPv4",
+    "origem_ip": "ip_publico_detectado_pelo_navegador_localhost",
+    "ipinfo": {
+      "consultado": false,
+      "erro": null,
+      "observacao": "Consulta feita sob demanda no painel administrativo."
+    },
+    "ips_publicos_detectados": {
+      "ipv4": "179.214.28.147",
+      "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+      "erros": {}
+    },
+    "ip_conexao_servidor": "127.0.0.1",
+    "cabecalhos_http": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "http://127.0.0.1:8000/",
+      "sec_ch_ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+      "sec_ch_ua_mobile": "?0",
+      "sec_ch_ua_platform": "\"Windows\"",
+      "sec_ch_ua_platform_version": null,
+      "sec_ch_ua_model": null,
+      "sec_ch_ua_arch": null,
+      "sec_ch_ua_bitness": null,
+      "sec_ch_ua_full_version": null
+    }
+  },
+  "dados_navegador": {
+    "consentimento": true,
+    "sessao": "b5c60900a23707059690e4c6",
+    "coletado_em_cliente": "2026-11-18T21:11:41.324Z",
+    "navegador": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "idioma": "pt-BR",
+      "idiomas": [
+        "pt-BR",
+        "pt",
+        "en-US",
+        "en"
+      ],
+      "plataforma": "Windows",
+      "dispositivo": {
+        "tipo": "computador",
+        "mobile": false,
+        "nome_dispositivo": null,
+        "fabricante_estimado": null,
+        "sistema_operacional": "Windows",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      },
+      "client_hints": {
+        "mobile": false,
+        "plataforma": "Windows",
+        "marcas": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157"
+          }
+        ],
+        "modelo": null,
+        "versao_plataforma": "10.0.0",
+        "arquitetura": "x86",
+        "bitness": "64",
+        "full_version_list": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99.0.0.0"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157.0.8103.79"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157.0.8103.79"
+          }
+        ],
+        "wow64": false
+      },
+      "navegador_estimado": {
+        "nome": "Google Chrome",
+        "versao": "157.0.8103.79"
+      },
+      "timezone": "America/Sao_Paulo",
+      "timezone_offset_minutos": 180,
+      "cookies_habilitados": true,
+      "do_not_track": null,
+      "pdf_viewer_habilitado": true,
+      "idioma_documento": "pt-BR"
+    },
+    "tela": {
+      "largura": 1366,
+      "altura": 768,
+      "largura_disponivel": 1366,
+      "altura_disponivel": 728,
+      "profundidade_cor": 24,
+      "pixel_ratio": 1,
+      "viewport_largura": 1366,
+      "viewport_altura": 607,
+      "orientacao": "landscape-primary"
+    },
+    "capacidades": {
+      "toque_maximo": 10,
+      "touchscreen_detectado": true,
+      "nucleos_logicos": 4,
+      "memoria_gb_aproximada": 8,
+      "online": true,
+      "conexao": {
+        "tipo": null,
+        "tipo_efetivo": "4g",
+        "downlink_mbps_aproximado": 10,
+        "rtt_ms_aproximado": 50,
+        "economia_dados": false
+      },
+      "armazenamento": {
+        "local_storage": true,
+        "session_storage": true,
+        "indexed_db": true
+      },
+      "recursos": {
+        "webgl": true,
+        "webassembly": true,
+        "service_worker": true,
+        "bluetooth_api": true,
+        "usb_api": true,
+        "pdf_embutido": true
+      },
+      "preferencias_acessibilidade": {
+        "esquema_cores": "dark",
+        "movimento_reduzido": false,
+        "contraste_alto": false,
+        "ponteiro": "fine",
+        "hover": true
+      },
+      "referer": "http://127.0.0.1:8000/admin"
+    },
+    "permissoes": {
+      "geolocation": "granted",
+      "notifications": "prompt",
+      "camera": "prompt",
+      "microphone": "prompt",
+      "clipboard-read": "prompt"
+    },
+    "origem": {
+      "pagina": "/",
+      "host": "127.0.0.1:8000",
+      "protocolo": "http:",
+      "referer": "http://127.0.0.1:8000/admin",
+      "campanha": {
+        "utm_source": null,
+        "utm_medium": null,
+        "utm_campaign": null,
+        "utm_term": null,
+        "utm_content": null
+      }
+    },
+    "geolocalizacao": null,
+    "ip_publico_detectado_cliente": "179.214.28.147",
+    "ipinfo_publico_cliente": null,
+    "ips_publicos_cliente": {
+      "ipv4": "179.214.28.147",
+      "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+      "erros": {}
+    }
+  },
+  "sessoes": [
+    "5c62a8593a51a79c7b04e1da",
+    "504cb1d0cb796142cbca9964",
+    "299a3edd385974816e2eed6c",
+    "b5c60900a23707059690e4c6"
+  ],
+  "ipinfo_admin": {
+    "179.214.28.147": {
+      "consultado": true,
+      "ip": "179.214.28.147",
+      "provedor": "Claro NXT Telecomunicacoes Ltda",
+      "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+      "asn": "AS28573",
+      "pais": "BR",
+      "codigo_pais": "BR",
+      "regiao": "Federal District",
+      "cidade": "Brasília",
+      "codigo_postal": "70000-000",
+      "timezone": "America/Sao_Paulo",
+      "localizacao_aproximada": "-15.7797,-47.9297",
+      "latitude": -15.7797,
+      "longitude": -47.9297,
+      "hostname": "b3d61c93.virtua.com.br",
+      "anycast": null,
+      "bruto": {
+        "ip": "179.214.28.147",
+        "hostname": "b3d61c93.virtua.com.br",
+        "city": "Brasília",
+        "region": "Federal District",
+        "country": "BR",
+        "loc": "-15.7797,-47.9297",
+        "org": "AS28573 Claro NXT Telecomunicacoes Ltda",
+        "postal": "70000-000",
+        "timezone": "America/Sao_Paulo"
+      },
+      "consultado_em": "2026-11-18T17:48:34-03:00",
+      "erro": null
+    },
+    "2804:14c:65c1:4c86:28b0:56e6:426d:8516": {
+      "consultado": true,
+      "ip": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+      "provedor": "Claro NXT Telecomunicacoes Ltda",
+      "organizacao": "AS28573 Claro NXT Telecomunicacoes Ltda",
+      "asn": "AS28573",
+      "pais": "BR",
+      "codigo_pais": "BR",
+      "regiao": "Federal District",
+      "cidade": "Brasília",
+      "codigo_postal": "70000-000",
+      "timezone": "America/Sao_Paulo",
+      "localizacao_aproximada": "-15.7797,-47.9297",
+      "latitude": -15.7797,
+      "longitude": -47.9297,
+      "hostname": null,
+      "anycast": null,
+      "bruto": {
+        "ip": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+        "city": "Brasília",
+        "region": "Federal District",
+        "country": "BR",
+        "loc": "-15.7797,-47.9297",
+        "org": "AS28573 Claro NXT Telecomunicacoes Ltda",
+        "postal": "70000-000",
+        "timezone": "America/Sao_Paulo"
+      },
+      "consultado_em": "2026-11-18T18:07:57-03:00",
+      "erro": null
+    }
+  },
+  "historico_acessos": [
+    {
+      "registrado_em": "2026-11-18T17:41:04-03:00",
+      "sessao": "5c62a8593a51a79c7b04e1da",
+      "conexao_servidor": {
+        "ip_observado": "179.214.28.147",
+        "tipo_ip": "IPv4",
+        "origem_ip": "ip_publico_detectado_pelo_navegador_localhost",
+        "ipinfo": {
+          "consultado": false,
+          "erro": null,
+          "observacao": "Consulta feita sob demanda no painel administrativo."
+        },
+        "ips_publicos_detectados": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        },
+        "ip_conexao_servidor": "127.0.0.1",
+        "cabecalhos_http": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+          "referer": "http://127.0.0.1:8000/",
+          "sec_ch_ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+          "sec_ch_ua_mobile": "?0",
+          "sec_ch_ua_platform": "\"Windows\"",
+          "sec_ch_ua_platform_version": null,
+          "sec_ch_ua_model": null,
+          "sec_ch_ua_arch": null,
+          "sec_ch_ua_bitness": null,
+          "sec_ch_ua_full_version": null
+        }
+      },
+      "dados_navegador": {
+        "consentimento": true,
+        "sessao": "5c62a8593a51a79c7b04e1da",
+        "coletado_em_cliente": "2026-11-18T20:41:04.507Z",
+        "navegador": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "idioma": "pt-BR",
+          "idiomas": [
+            "pt-BR",
+            "pt",
+            "en-US",
+            "en"
+          ],
+          "plataforma": "Windows",
+          "dispositivo": {
+            "tipo": "computador",
+            "mobile": false,
+            "nome_dispositivo": null,
+            "fabricante_estimado": null,
+            "sistema_operacional": "Windows",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+          },
+          "client_hints": {
+            "mobile": false,
+            "plataforma": "Windows",
+            "marcas": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157"
+              }
+            ],
+            "modelo": null,
+            "versao_plataforma": "10.0.0",
+            "arquitetura": "x86",
+            "bitness": "64",
+            "full_version_list": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99.0.0.0"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157.0.8103.79"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157.0.8103.79"
+              }
+            ],
+            "wow64": false
+          },
+          "navegador_estimado": {
+            "nome": "Google Chrome",
+            "versao": "157.0.8103.79"
+          },
+          "timezone": "America/Sao_Paulo",
+          "timezone_offset_minutos": 180,
+          "cookies_habilitados": true,
+          "do_not_track": null,
+          "pdf_viewer_habilitado": true,
+          "idioma_documento": "pt-BR"
+        },
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "largura_disponivel": 1366,
+          "altura_disponivel": 728,
+          "profundidade_cor": 24,
+          "pixel_ratio": 1,
+          "viewport_largura": 1366,
+          "viewport_altura": 607,
+          "orientacao": "landscape-primary"
+        },
+        "capacidades": {
+          "toque_maximo": 10,
+          "touchscreen_detectado": true,
+          "nucleos_logicos": 4,
+          "memoria_gb_aproximada": 8,
+          "online": true,
+          "conexao": {
+            "tipo": null,
+            "tipo_efetivo": "4g",
+            "downlink_mbps_aproximado": 10,
+            "rtt_ms_aproximado": 150,
+            "economia_dados": false
+          },
+          "armazenamento": {
+            "local_storage": true,
+            "session_storage": true,
+            "indexed_db": true
+          },
+          "recursos": {
+            "webgl": true,
+            "webassembly": true,
+            "service_worker": true,
+            "bluetooth_api": true,
+            "usb_api": true,
+            "pdf_embutido": true
+          },
+          "preferencias_acessibilidade": {
+            "esquema_cores": "dark",
+            "movimento_reduzido": false,
+            "contraste_alto": false,
+            "ponteiro": "fine",
+            "hover": true
+          },
+          "referer": null
+        },
+        "permissoes": {
+          "geolocation": "granted",
+          "notifications": "prompt",
+          "camera": "prompt",
+          "microphone": "prompt",
+          "clipboard-read": "prompt"
+        },
+        "origem": {
+          "pagina": "/",
+          "host": "127.0.0.1:8000",
+          "protocolo": "http:",
+          "referer": null,
+          "campanha": {
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "utm_term": null,
+            "utm_content": null
+          }
+        },
+        "geolocalizacao": null,
+        "ip_publico_detectado_cliente": "179.214.28.147",
+        "ipinfo_publico_cliente": null,
+        "ips_publicos_cliente": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        }
+      }
+    },
+    {
+      "registrado_em": "2026-11-18T17:42:56-03:00",
+      "sessao": "504cb1d0cb796142cbca9964",
+      "conexao_servidor": {
+        "ip_observado": "179.214.28.147",
+        "tipo_ip": "IPv4",
+        "origem_ip": "ip_publico_detectado_pelo_navegador_localhost",
+        "ipinfo": {
+          "consultado": false,
+          "erro": null,
+          "observacao": "Consulta feita sob demanda no painel administrativo."
+        },
+        "ips_publicos_detectados": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        },
+        "ip_conexao_servidor": "127.0.0.1",
+        "cabecalhos_http": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+          "referer": "http://127.0.0.1:8000/",
+          "sec_ch_ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+          "sec_ch_ua_mobile": "?0",
+          "sec_ch_ua_platform": "\"Windows\"",
+          "sec_ch_ua_platform_version": null,
+          "sec_ch_ua_model": null,
+          "sec_ch_ua_arch": null,
+          "sec_ch_ua_bitness": null,
+          "sec_ch_ua_full_version": null
+        }
+      },
+      "dados_navegador": {
+        "consentimento": true,
+        "sessao": "504cb1d0cb796142cbca9964",
+        "coletado_em_cliente": "2026-11-18T20:42:56.500Z",
+        "navegador": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "idioma": "pt-BR",
+          "idiomas": [
+            "pt-BR",
+            "pt",
+            "en-US",
+            "en"
+          ],
+          "plataforma": "Windows",
+          "dispositivo": {
+            "tipo": "computador",
+            "mobile": false,
+            "nome_dispositivo": null,
+            "fabricante_estimado": null,
+            "sistema_operacional": "Windows",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+          },
+          "client_hints": {
+            "mobile": false,
+            "plataforma": "Windows",
+            "marcas": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157"
+              }
+            ],
+            "modelo": null,
+            "versao_plataforma": "10.0.0",
+            "arquitetura": "x86",
+            "bitness": "64",
+            "full_version_list": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99.0.0.0"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157.0.8103.79"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157.0.8103.79"
+              }
+            ],
+            "wow64": false
+          },
+          "navegador_estimado": {
+            "nome": "Google Chrome",
+            "versao": "157.0.8103.79"
+          },
+          "timezone": "America/Sao_Paulo",
+          "timezone_offset_minutos": 180,
+          "cookies_habilitados": true,
+          "do_not_track": null,
+          "pdf_viewer_habilitado": true,
+          "idioma_documento": "pt-BR"
+        },
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "largura_disponivel": 1366,
+          "altura_disponivel": 728,
+          "profundidade_cor": 24,
+          "pixel_ratio": 1,
+          "viewport_largura": 1366,
+          "viewport_altura": 607,
+          "orientacao": "landscape-primary"
+        },
+        "capacidades": {
+          "toque_maximo": 10,
+          "touchscreen_detectado": true,
+          "nucleos_logicos": 4,
+          "memoria_gb_aproximada": 8,
+          "online": true,
+          "conexao": {
+            "tipo": null,
+            "tipo_efetivo": "4g",
+            "downlink_mbps_aproximado": 10,
+            "rtt_ms_aproximado": 150,
+            "economia_dados": false
+          },
+          "armazenamento": {
+            "local_storage": true,
+            "session_storage": true,
+            "indexed_db": true
+          },
+          "recursos": {
+            "webgl": true,
+            "webassembly": true,
+            "service_worker": true,
+            "bluetooth_api": true,
+            "usb_api": true,
+            "pdf_embutido": true
+          },
+          "preferencias_acessibilidade": {
+            "esquema_cores": "dark",
+            "movimento_reduzido": false,
+            "contraste_alto": false,
+            "ponteiro": "fine",
+            "hover": true
+          },
+          "referer": "http://127.0.0.1:8000/admin"
+        },
+        "permissoes": {
+          "geolocation": "granted",
+          "notifications": "prompt",
+          "camera": "prompt",
+          "microphone": "prompt",
+          "clipboard-read": "prompt"
+        },
+        "origem": {
+          "pagina": "/",
+          "host": "127.0.0.1:8000",
+          "protocolo": "http:",
+          "referer": "http://127.0.0.1:8000/admin",
+          "campanha": {
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "utm_term": null,
+            "utm_content": null
+          }
+        },
+        "geolocalizacao": null,
+        "ip_publico_detectado_cliente": "179.214.28.147",
+        "ipinfo_publico_cliente": null,
+        "ips_publicos_cliente": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        }
+      }
+    },
+    {
+      "registrado_em": "2026-11-18T18:05:22-03:00",
+      "sessao": "299a3edd385974816e2eed6c",
+      "conexao_servidor": {
+        "ip_observado": "179.214.28.147",
+        "tipo_ip": "IPv4",
+        "origem_ip": "ip_publico_detectado_pelo_navegador_localhost",
+        "ipinfo": {
+          "consultado": false,
+          "erro": null,
+          "observacao": "Consulta feita sob demanda no painel administrativo."
+        },
+        "ips_publicos_detectados": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        },
+        "ip_conexao_servidor": "127.0.0.1",
+        "cabecalhos_http": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+          "referer": "http://127.0.0.1:8000/",
+          "sec_ch_ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+          "sec_ch_ua_mobile": "?0",
+          "sec_ch_ua_platform": "\"Windows\"",
+          "sec_ch_ua_platform_version": null,
+          "sec_ch_ua_model": null,
+          "sec_ch_ua_arch": null,
+          "sec_ch_ua_bitness": null,
+          "sec_ch_ua_full_version": null
+        }
+      },
+      "dados_navegador": {
+        "consentimento": true,
+        "sessao": "299a3edd385974816e2eed6c",
+        "coletado_em_cliente": "2026-11-18T21:05:22.688Z",
+        "navegador": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "idioma": "pt-BR",
+          "idiomas": [
+            "pt-BR",
+            "pt",
+            "en-US",
+            "en"
+          ],
+          "plataforma": "Windows",
+          "dispositivo": {
+            "tipo": "computador",
+            "mobile": false,
+            "nome_dispositivo": null,
+            "fabricante_estimado": null,
+            "sistema_operacional": "Windows",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+          },
+          "client_hints": {
+            "mobile": false,
+            "plataforma": "Windows",
+            "marcas": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157"
+              }
+            ],
+            "modelo": null,
+            "versao_plataforma": "10.0.0",
+            "arquitetura": "x86",
+            "bitness": "64",
+            "full_version_list": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99.0.0.0"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157.0.8103.79"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157.0.8103.79"
+              }
+            ],
+            "wow64": false
+          },
+          "navegador_estimado": {
+            "nome": "Google Chrome",
+            "versao": "157.0.8103.79"
+          },
+          "timezone": "America/Sao_Paulo",
+          "timezone_offset_minutos": 180,
+          "cookies_habilitados": true,
+          "do_not_track": null,
+          "pdf_viewer_habilitado": true,
+          "idioma_documento": "pt-BR"
+        },
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "largura_disponivel": 1366,
+          "altura_disponivel": 728,
+          "profundidade_cor": 24,
+          "pixel_ratio": 1,
+          "viewport_largura": 1366,
+          "viewport_altura": 607,
+          "orientacao": "landscape-primary"
+        },
+        "capacidades": {
+          "toque_maximo": 10,
+          "touchscreen_detectado": true,
+          "nucleos_logicos": 4,
+          "memoria_gb_aproximada": 8,
+          "online": true,
+          "conexao": {
+            "tipo": null,
+            "tipo_efetivo": "4g",
+            "downlink_mbps_aproximado": 10,
+            "rtt_ms_aproximado": 150,
+            "economia_dados": false
+          },
+          "armazenamento": {
+            "local_storage": true,
+            "session_storage": true,
+            "indexed_db": true
+          },
+          "recursos": {
+            "webgl": true,
+            "webassembly": true,
+            "service_worker": true,
+            "bluetooth_api": true,
+            "usb_api": true,
+            "pdf_embutido": true
+          },
+          "preferencias_acessibilidade": {
+            "esquema_cores": "dark",
+            "movimento_reduzido": false,
+            "contraste_alto": false,
+            "ponteiro": "fine",
+            "hover": true
+          },
+          "referer": "http://127.0.0.1:8000/admin"
+        },
+        "permissoes": {
+          "geolocation": "granted",
+          "notifications": "prompt",
+          "camera": "prompt",
+          "microphone": "prompt",
+          "clipboard-read": "prompt"
+        },
+        "origem": {
+          "pagina": "/",
+          "host": "127.0.0.1:8000",
+          "protocolo": "http:",
+          "referer": "http://127.0.0.1:8000/admin",
+          "campanha": {
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "utm_term": null,
+            "utm_content": null
+          }
+        },
+        "geolocalizacao": null,
+        "ip_publico_detectado_cliente": "179.214.28.147",
+        "ipinfo_publico_cliente": null,
+        "ips_publicos_cliente": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        }
+      }
+    },
+    {
+      "registrado_em": "2026-11-18T18:11:41-03:00",
+      "sessao": "b5c60900a23707059690e4c6",
+      "conexao_servidor": {
+        "ip_observado": "179.214.28.147",
+        "tipo_ip": "IPv4",
+        "origem_ip": "ip_publico_detectado_pelo_navegador_localhost",
+        "ipinfo": {
+          "consultado": false,
+          "erro": null,
+          "observacao": "Consulta feita sob demanda no painel administrativo."
+        },
+        "ips_publicos_detectados": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        },
+        "ip_conexao_servidor": "127.0.0.1",
+        "cabecalhos_http": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+          "referer": "http://127.0.0.1:8000/",
+          "sec_ch_ua": "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"",
+          "sec_ch_ua_mobile": "?0",
+          "sec_ch_ua_platform": "\"Windows\"",
+          "sec_ch_ua_platform_version": null,
+          "sec_ch_ua_model": null,
+          "sec_ch_ua_arch": null,
+          "sec_ch_ua_bitness": null,
+          "sec_ch_ua_full_version": null
+        }
+      },
+      "dados_navegador": {
+        "consentimento": true,
+        "sessao": "b5c60900a23707059690e4c6",
+        "coletado_em_cliente": "2026-11-18T21:11:41.324Z",
+        "navegador": {
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+          "idioma": "pt-BR",
+          "idiomas": [
+            "pt-BR",
+            "pt",
+            "en-US",
+            "en"
+          ],
+          "plataforma": "Windows",
+          "dispositivo": {
+            "tipo": "computador",
+            "mobile": false,
+            "nome_dispositivo": null,
+            "fabricante_estimado": null,
+            "sistema_operacional": "Windows",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+          },
+          "client_hints": {
+            "mobile": false,
+            "plataforma": "Windows",
+            "marcas": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157"
+              }
+            ],
+            "modelo": null,
+            "versao_plataforma": "10.0.0",
+            "arquitetura": "x86",
+            "bitness": "64",
+            "full_version_list": [
+              {
+                "brand": "Not-A.Brand",
+                "version": "99.0.0.0"
+              },
+              {
+                "brand": "Google Chrome",
+                "version": "157.0.8103.79"
+              },
+              {
+                "brand": "Chromium",
+                "version": "157.0.8103.79"
+              }
+            ],
+            "wow64": false
+          },
+          "navegador_estimado": {
+            "nome": "Google Chrome",
+            "versao": "157.0.8103.79"
+          },
+          "timezone": "America/Sao_Paulo",
+          "timezone_offset_minutos": 180,
+          "cookies_habilitados": true,
+          "do_not_track": null,
+          "pdf_viewer_habilitado": true,
+          "idioma_documento": "pt-BR"
+        },
+        "tela": {
+          "largura": 1366,
+          "altura": 768,
+          "largura_disponivel": 1366,
+          "altura_disponivel": 728,
+          "profundidade_cor": 24,
+          "pixel_ratio": 1,
+          "viewport_largura": 1366,
+          "viewport_altura": 607,
+          "orientacao": "landscape-primary"
+        },
+        "capacidades": {
+          "toque_maximo": 10,
+          "touchscreen_detectado": true,
+          "nucleos_logicos": 4,
+          "memoria_gb_aproximada": 8,
+          "online": true,
+          "conexao": {
+            "tipo": null,
+            "tipo_efetivo": "4g",
+            "downlink_mbps_aproximado": 10,
+            "rtt_ms_aproximado": 50,
+            "economia_dados": false
+          },
+          "armazenamento": {
+            "local_storage": true,
+            "session_storage": true,
+            "indexed_db": true
+          },
+          "recursos": {
+            "webgl": true,
+            "webassembly": true,
+            "service_worker": true,
+            "bluetooth_api": true,
+            "usb_api": true,
+            "pdf_embutido": true
+          },
+          "preferencias_acessibilidade": {
+            "esquema_cores": "dark",
+            "movimento_reduzido": false,
+            "contraste_alto": false,
+            "ponteiro": "fine",
+            "hover": true
+          },
+          "referer": "http://127.0.0.1:8000/admin"
+        },
+        "permissoes": {
+          "geolocation": "granted",
+          "notifications": "prompt",
+          "camera": "prompt",
+          "microphone": "prompt",
+          "clipboard-read": "prompt"
+        },
+        "origem": {
+          "pagina": "/",
+          "host": "127.0.0.1:8000",
+          "protocolo": "http:",
+          "referer": "http://127.0.0.1:8000/admin",
+          "campanha": {
+            "utm_source": null,
+            "utm_medium": null,
+            "utm_campaign": null,
+            "utm_term": null,
+            "utm_content": null
+          }
+        },
+        "geolocalizacao": null,
+        "ip_publico_detectado_cliente": "179.214.28.147",
+        "ipinfo_publico_cliente": null,
+        "ips_publicos_cliente": {
+          "ipv4": "179.214.28.147",
+          "ipv6": "2804:14c:65c1:4c86:28b0:56e6:426d:8516",
+          "erros": {}
+        }
+      }
+    }
+  ]
+}

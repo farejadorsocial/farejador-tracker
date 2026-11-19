@@ -1,0 +1,12 @@
+data/farejador.db
+data/farejador.db-*
+data/config.json
+data/eventos.jsonl
+data/admin.json
+data/visitors/*.json
+data/uploads/*
+!data/uploads/.gitkeep
+__pycache__/
+.venv/
+.env
+*.tmp

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar Coletor (Python 3.9+)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/iniciar.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
